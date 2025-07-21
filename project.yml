@@ -1,0 +1,46 @@
+---
+settings:
+  name: Google Cloud NetApp Volumes
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Google Cloud NetApp 볼륨
+    url: "/index.html"
+  - title: 릴리스 정보
+    entries:
+    - title: 새로운 소식
+      url: "/whats-new.html"
+  - title: 시작하십시오
+    entries:
+    - title: Google Cloud NetApp Volumes 에 대해 알아보세요
+      url: "/concept-gcnv.html"
+    - title: 워크플로를 시작합니다
+      url: "/task-quick-start.html"
+    - title: Google Cloud를 설정합니다
+      url: "/task-set-up-gcnv.html"
+    - title: 작업 환경 추가
+      url: "/task-create-working-env.html"
+  - title: Google Cloud NetApp Volumes 사용
+    entries:
+    - title: 볼륨 관리
+      url: "/task-manage-volumes.html"
+    - title: Google Cloud NetApp Volumes 제거
+      url: "/task-remove-working-env.html"
+  - title: 지식 및 지원
+    entries:
+    - title: 지원을 위해 등록하십시오
+      url: "/task-support-registration.html"
+    - title: 도움을 받으십시오
+      url: "/task-get-help.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
+product-family:
+  name: BlueXP
+  repo: bluexp-family

@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task-quick-start.html 
+keywords: set up google cloud netapp volumes, quick start 
+summary: Google Cloud를 설정한 다음 작업 환경을 만들어 Google Cloud NetApp Volumes 시작하세요. 
+---
+= 워크플로를 시작합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Google Cloud를 설정한 다음 작업 환경을 만들어 Google Cloud NetApp Volumes 시작하세요.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] link:task-set-up-gcnv.html["Google Cloud NetApp Volumes 설정"]
+[role="quick-margin-para"]
+Google에서 서비스 계정을 만듭니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] link:task-create-working-env.html["작업 환경 추가"]
+[role="quick-margin-para"]
+BlueXP 에서 *작업 환경 추가* > *Google Cloud Platform* > * Google Cloud NetApp Volumes* > *Discover*를 클릭한 다음 서비스 계정 및 Google Cloud 프로젝트에 대한 세부 정보를 제공합니다.

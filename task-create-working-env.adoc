@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: task-create-working-env.html 
+keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients 
+summary: BlueXP 에서 Google Cloud 작업 환경에 Netapp Volumes를 추가하여 볼륨을 보고 관리합니다. 
+---
+= Google Cloud NetApp Volumes 작업 환경 추가
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+서비스 계정을 설정한 후 BlueXP 에 Google Cloud NetApp Volumes 작업 환경을 추가하면 Google Cloud NetApp Volumes 인스턴스를 볼 수 있습니다.
+
+이 구독에 대한 클라우드 볼륨이 작업 환경에 표시됩니다.
+
+
+NOTE: 여러 Google Cloud 프로젝트에 구독과 볼륨이 있는 경우 각 프로젝트에 대해 이 작업을 수행해야 합니다.
+
+.시작하기 전에
+각 프로젝트에 대한 구독을 추가할 때 다음 정보를 사용할 수 있어야 합니다.
+
+* 서비스 계정 자격 증명(다운로드한 JSON 개인 키)
+* 프로젝트 이름
+
+
+.단계
+. BlueXP 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
+. Canvas 페이지에서 *작업 환경 추가*를 선택하고 *Google Cloud Platform*을 선택합니다.
+. *Google Cloud Netapp Volumes* 옆에 있는 *검색*을 선택합니다.
+. NetApp Volumes 구독에 대한 정보를 제공해 주세요.
++
+.. 사용할 작업 환경 이름을 입력합니다.
+.. 이전 단계에서 다운로드한 JSON 개인 키를 복사/붙여넣으십시오.
+.. *자격 증명 적용*을 선택합니다.
+.. Google Cloud 프로젝트의 이름을 선택합니다.
+.. 작업 환경을 만들 리전을 선택하세요. 리전은 Google Cloud NetApp Volumes 에서 지원하는 리전 중 하나여야 합니다.
+.. Discover * 를 선택합니다.
++
+image:screenshot_create_environment.png["Google Cloud NetApp Volumes 구독에 대한 자격 증명을 추가하는 스크린샷입니다."]
+
+
+
+
+
+.결과
+BlueXP Google Cloud NetApp Volumes 작업 환경을 표시합니다.
+
+image:screenshot_gcnv_environment.png["Google Cloud NetApp Volumes Service 작업 환경의 스크린샷입니다."]
+
+.다음 단계
+link:task-manage-volumes.html["볼륨 보기"]..
