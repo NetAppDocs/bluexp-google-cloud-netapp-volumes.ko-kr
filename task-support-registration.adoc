@@ -17,7 +17,7 @@ BlueXP 및 해당 스토리지 솔루션 및 서비스와 관련된 기술 지�
 
 * link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html#getting-help["ONTAP용 Amazon FSx"^]
 * link:https://docs.netapp.com/us-en/bluexp-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files"^]
-* link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-service-gcp/concept-cvs-gcp.html#getting-help["Google Cloud용 Cloud Volumes Service"^]
+* link:https://docs.netapp.com/us-en/bluexp-google-cloud-netapp-volumes/concept-gcnv.html#getting-help["Google Cloud NetApp 볼륨"^]
 
 
 
@@ -59,7 +59,7 @@ NSS 계정을 가지고 있는 NetApp 고객은 BlueXP를 통해 지원을 받�
 리소스 * 페이지에 귀하의 BlueXP  조직이 지원을 위해 등록되었다는 메시지가 표시됩니다.
 
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-support-registration.png["계정 일련 번호와 녹색 확인란이 표시된 스크린샷 및 지원을 위해 등록된 텍스트."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-support-registration.png["계정 일련번호, 녹색 확인란, 지원 등록이라는 텍스트가 표시된 스크린샷입니다."]
 
 +
 다른 BlueXP 사용자는 BlueXP 로그인과 NetApp Support 사이트 계정을 연결하지 않은 경우 동일한 지원 등록 상태를 볼 수 없습니다. 하지만 그렇다고 BlueXP  조직이 지원에 등록되어 있지 않다는 뜻은 아닙니다. 조직 내 한 명의 사용자가 이 단계를 수행하면 조직이 등록됩니다.

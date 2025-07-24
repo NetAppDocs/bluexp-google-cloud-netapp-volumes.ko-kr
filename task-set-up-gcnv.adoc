@@ -44,8 +44,8 @@ Cloud Console은 이 이름을 기반으로 서비스 계정 ID를 생성합니�
 
 .. 다음 역할을 추가합니다.
 +
-*** _NetApp Cloud Volumes 관리자 _
-*** _네트워크 뷰어 계산 _
+*** _Google Cloud NetApp 볼륨 관리자_
+*** _Google Cloud NetApp 뷰어_
 
 
 .. 저장 * 을 클릭합니다.
@@ -60,6 +60,7 @@ Cloud Console은 이 이름을 기반으로 서비스 계정 ID를 생성합니�
 
 자세한 단계는 Google Cloud 설명서를 참조하십시오.
 
+* link:https://cloud.google.com/iam/docs/roles-permissions/netapp["Google Cloud NetApp Volumes 역할 및 권한"^]
 * link:https://cloud.google.com/iam/docs/creating-managing-service-accounts["서비스 계정 생성 및 관리"^]
 * link:https://cloud.google.com/iam/docs/granting-changing-revoking-access["리소스에 대한 액세스 권한 부여, 변경 및 해지"^]
 * link:https://cloud.google.com/iam/docs/creating-managing-service-account-keys["서비스 계정 키 생성 및 관리"^]

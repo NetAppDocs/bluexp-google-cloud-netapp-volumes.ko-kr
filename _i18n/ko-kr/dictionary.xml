@@ -52,21 +52,7 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
   <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
-  <block id="46a16a87c9a7094594706aec2c316b1f" category="summary">Google Cloud NetApp Volumes 사용자가 BlueXP 에서 볼륨을 검색하려면 먼저 관리자 역할을 할당해야 합니다.</block>
-  <block id="dd71e40069f8d28227a57c7c7b96cf9c" category="doc">Google Cloud NetApp Volumes 관리자 역할 지정</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
-  <block id="18410f1a8f7ef8e08d8424b98e8f8b7d" category="inline-image-macro">오른쪽 상단의 설정 아이콘.</block>
-  <block id="ad5c01412c25878a0856ba167676d169" category="list-text">BlueXP  콘솔의 오른쪽 위에서&gt; * ID 및 액세스 관리 * 를 선택합니다<block ref="f4a9680dc3269d61ad52545906cc850a" category="inline-image-macro-rx" type="image"></block>.</block>
-  <block id="b0afff19aa3343a6f86619d833dbd316" category="inline-image-macro">세 개의 나란히 점이 있는 아이콘입니다</block>
-  <block id="a4e257e81b6cc81f31c7105baf6f8400" category="list-text">*회원* 페이지에서 테이블에서 회원을 찾아 선택하세요. <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 그런 다음 *역할 추가*를 선택하세요.</block>
-  <block id="5f4f2140800f25dcab7691933bfbdbdb" category="list-text">역할을 추가하려면 대화 상자의 단계를 완료합니다.</block>
-  <block id="1ecba737086562de0c9a665208880348" category="list-text">*조직, 폴더 또는 프로젝트 선택*: 멤버에게 권한이 부여되어야 하는 리소스 계층 수준을 선택하고 *수락*을 클릭합니다.</block>
-  <block id="2000548d1a967f006f86a93492ac094f" category="paragraph">조직이나 폴더를 선택하면 멤버에게 다음 권한이 부여됩니다.</block>
-  <block id="0e6e1e539b578c2b0388d566d8ae4e15" category="inline-link-macro">액세스 역할에 대해 알아봅니다</block>
-  <block id="16dc306cdff4c0ae32c903818b903eea" category="list-text">*카테고리 선택*: 역할 카테고리를 선택하세요. <block ref="a51247ccde87e175c686e81825c9f657" category="inline-link-macro-rx"></block>..</block>
-  <block id="b775c07b408fbc20af51e7858ab84ee4" category="list-text">*역할* 선택: GCNV 역할을 선택하고 *수락*을 클릭합니다.</block>
-  <block id="2517380aae5c1f54daeeb4078c9a7f26" category="list-text">*새로운 역할 추가*를 클릭하세요.</block>
-  <block id="c9517c84e65e66feb51a457adecedd55" category="paragraph"><block ref="a51247ccde87e175c686e81825c9f657" category="inline-link-macro-rx"></block>..</block>
   <block id="f3585c61662b03a3f4563f841d2297fe" category="summary">BlueXP 에서 Google Cloud 작업 환경에 Netapp Volumes를 추가하여 볼륨을 보고 관리합니다.</block>
   <block id="c6271395f4ef3fdf77347d8be7d3c766" category="doc">Google Cloud NetApp Volumes 작업 환경 추가</block>
   <block id="cbc669f748ed044432dcc549329eb2cc" category="paragraph">서비스 계정을 설정한 후 BlueXP 에 Google Cloud NetApp Volumes 작업 환경을 추가하면 Google Cloud NetApp Volumes 인스턴스를 볼 수 있습니다.</block>
@@ -97,15 +83,12 @@
   <block id="a61478a0e30e48b7d57fdb9d04d7786f" category="paragraph"><block ref="63c313849b46036fdbb935ff958cbabb" category="inline-link-macro-rx"></block>..</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp은 다양한 방법으로 BlueXP를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
-  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp은 다양한 방법으로 BlueXP 및 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자의 파일 서비스에 대한 지원을 받습니다</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">ONTAP용 Amazon FSx</block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Google Cloud용 Cloud Volumes Service</block>
-  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">자체 지원 옵션을 사용합니다</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.</block>
@@ -228,8 +211,6 @@
   <block id="8d549e601fd570fd51b0bddb07a08462" category="list-text">새 구성원 필드에 전체 서비스 계정 ID를 입력합니다.</block>
   <block id="1d172c52399b8bfd31a6c902f515b82d" category="paragraph">예: \user1-service-account-gcnv@project1.iam.gserviceaccount.com</block>
   <block id="e6915ea331526f7f3221d5b019733157" category="list-text">다음 역할을 추가합니다.</block>
-  <block id="ea34dd9c3c884049d43a2ee08126a1e2" category="list-text">_NetApp Cloud Volumes 관리자 _</block>
-  <block id="a69f1e2412a22a1f3153b3553fb2a1d1" category="list-text">_네트워크 뷰어 계산 _</block>
   <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">저장 * 을 클릭합니다.</block>
   <block id="1baa368f450d37450a1cb47c6b7dd320" category="list-text">서비스 계정 이름을 클릭한 다음 _ 서비스 계정 세부 정보 _ 페이지에서 * 키 추가 &gt; 새 키 만들기 * 를 클릭합니다.</block>
   <block id="744132d4bfa3718f3315f6d3187cba60" category="list-text">키 유형으로 * JSON * 을 선택하고 * Create * 를 클릭합니다.</block>
@@ -261,8 +242,6 @@
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">NSS 자격 증명 추가 * 를 선택하고 NetApp Support 사이트(NSS) 인증 프롬프트를 따릅니다.</block>
   <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">등록 프로세스가 성공적으로 완료되었는지 확인하려면 도움말 아이콘을 선택하고 * 지원 * 을 선택합니다.</block>
   <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">리소스 * 페이지에 귀하의 BlueXP  조직이 지원을 위해 등록되었다는 메시지가 표시됩니다.</block>
-  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">계정 일련 번호와 녹색 확인란이 표시된 스크린샷 및 지원을 위해 등록된 텍스트.</block>
-  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">다른 BlueXP 사용자는 BlueXP 로그인과 NetApp Support 사이트 계정을 연결하지 않은 경우 동일한 지원 등록 상태를 볼 수 없습니다. 하지만 그렇다고 BlueXP  조직이 지원에 등록되어 있지 않다는 뜻은 아닙니다. 조직 내 한 명의 사용자가 이 단계를 수행하면 조직이 등록됩니다.</block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">기존 고객이지만 NSS 계정은 없습니다</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">기존 사용권 및 제품 번호가 _NO_NSS인 기존 NetApp 고객인 경우 NSS 계정을 만들어 BlueXP 로그인과 연결해야 합니다.</block>
@@ -332,4 +311,12 @@
   <block id="40b96cc305f26bed96812c2920065f5d" category="sidebar">Google Cloud를 설정합니다</block>
   <block id="f6c5aff43e91755ba26b1cc527f1f13e" category="sidebar">Google Cloud NetApp Volumes 제거</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp BlueXP 와 클라우드 서비스에 대한 다양한 지원을 제공합니다. 지식 베이스(KB) 문서 및 커뮤니티 포럼 등 다양한 무료 셀프 지원 옵션을 연중무휴 24시간 이용하실 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="a7c3b0d14336dd0504cb500448a6af93" category="list-text">_Google Cloud NetApp 볼륨 관리자_</block>
+  <block id="9e772ef6b5ccecb14c212b186c0c7314" category="list-text">_Google Cloud NetApp 뷰어_</block>
+  <block id="c1dba337436d468a67c1c9656a885d2a" category="inline-link-macro">Google Cloud NetApp Volumes 역할 및 권한</block>
+  <block id="d25ce7990f7fb194c21d862125556340" category="list-text"><block ref="d25ce7990f7fb194c21d862125556340" category="inline-link-macro-rx"></block></block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">계정 일련번호, 녹색 확인란, 지원 등록이라는 텍스트가 표시된 스크린샷입니다.</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
