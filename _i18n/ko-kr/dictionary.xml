@@ -204,14 +204,12 @@
   <block id="81c36eb6a7aa6110855ae09fd80381ab" category="list-text">서비스 계정 이름(표시 이름)과 설명을 입력합니다.</block>
   <block id="66335d9ae4276106da10a758c0c3c8b7" category="paragraph">Cloud Console은 이 이름을 기반으로 서비스 계정 ID를 생성합니다. 필요한 경우 ID 편집 - 나중에 ID를 변경할 수 없습니다.</block>
   <block id="8971b16610cb4efa4b6c83e3ad176094" category="list-text">지금 액세스 제어를 설정하려면 페이지 하단에서 * 만들기 * 를 클릭한 후 * 완료 * 를 클릭하고 다음 단계를 계속합니다.</block>
-  <block id="4bd66ea95ac91bc82cdc097c3614f96c" category="list-text">IAM 페이지에서 * Add * 를 클릭하고 _ Add Members_페이지의 필드를 입력합니다.</block>
   <block id="8d549e601fd570fd51b0bddb07a08462" category="list-text">새 구성원 필드에 전체 서비스 계정 ID를 입력합니다.</block>
   <block id="1d172c52399b8bfd31a6c902f515b82d" category="paragraph">예: \user1-service-account-gcnv@project1.iam.gserviceaccount.com</block>
   <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">저장 * 을 클릭합니다.</block>
   <block id="1baa368f450d37450a1cb47c6b7dd320" category="list-text">서비스 계정 이름을 클릭한 다음 _ 서비스 계정 세부 정보 _ 페이지에서 * 키 추가 &gt; 새 키 만들기 * 를 클릭합니다.</block>
   <block id="744132d4bfa3718f3315f6d3187cba60" category="list-text">키 유형으로 * JSON * 을 선택하고 * Create * 를 클릭합니다.</block>
   <block id="ef17d662e8cfc44a88102effe9136080" category="paragraph">생성 * 을 클릭하면 새 공개/개인 키 쌍이 생성되어 시스템에 다운로드됩니다. 이 키는 개인 키의 유일한 사본으로 사용됩니다. 이 파일은 서비스 계정으로 인증하는 데 사용할 수 있으므로 안전하게 보관하십시오.</block>
-  <block id="0eff7de92af8c65ac32bf20be9393a92" category="paragraph">자세한 단계는 Google Cloud 설명서를 참조하십시오.</block>
   <block id="7ef475b3aa654a4c77b576b7b693b979" category="inline-link-macro">서비스 계정 생성 및 관리</block>
   <block id="fc4ab4403cd96c67fe73442b8080f683" category="list-text"><block ref="fc4ab4403cd96c67fe73442b8080f683" category="inline-link-macro-rx"></block></block>
   <block id="b666e33c85ae74bc39da9e25479b2d5b" category="inline-link-macro">리소스에 대한 액세스 권한 부여, 변경 및 해지</block>
@@ -320,4 +318,15 @@
   <block id="0a2be9e155b7a35429d8207201437a43" category="list-text">다음 역할 중 하나를 추가하세요.</block>
   <block id="af76aae9134ddcda5d6f5f3c80e43816" category="list-text">_Google Cloud NetApp Volumes 관리자_ 또는</block>
   <block id="583f7e9208c61bd50e0d1e4d972cecda" category="list-text">_Google Cloud NetApp 볼륨 뷰어_</block>
+  <block id="913de1bf08a6316fa527cd3eea7e91ef" category="list-text">공유 프로젝트에서 IAM 역할을 부여합니다.</block>
+  <block id="e4815c1b80eceb906b33141a218966a0" category="section-title">키 쌍을 생성하고 다운로드하세요</block>
+  <block id="116e54786f44ecd0177dd2b114e4d828" category="section-title">서비스 계정 멤버 추가</block>
+  <block id="6d6d2ce509d08e2421b1c964eb552acc" category="list-text">_IAM 페이지_에서 *추가*를 클릭하고 _멤버 추가_ 페이지의 필드를 작성합니다.</block>
+  <block id="5c7d6cace2aa8a387b54b9dbe8b4e2ab" category="section-title">공유 VPC 생성</block>
+  <block id="bc469fcc20be5428ba31a5fd135dde8c" category="paragraph">서비스 계정을 사용할 각 추가 GCP 프로젝트에서 다음을 수행합니다.</block>
+  <block id="d4f2a874cc586f639aad0321d236f3f1" category="list-text">_IAM 페이지_에서 프로젝트 드롭다운 메뉴에서 공유 VPC 호스트 프로젝트를 선택합니다.</block>
+  <block id="5080561aad5ebf08cf55792d34a54478" category="list-text">*주체 추가*를 클릭합니다.</block>
+  <block id="6e1320f8528fb1d91c934c9e05845d77" category="list-text">*새로운 주체* 필드에 서비스 계정의 이메일 주소를 입력합니다.</block>
+  <block id="1d7587af55bbbf31c385580b0657b76c" category="list-text">*역할 선택* 드롭다운에서 Google Cloud NetApp Volumes 관리자 역할을 선택합니다.</block>
+  <block id="287240d4cb9fa88aea6eea70340936ce" category="paragraph">자세한 단계는 Google Cloud 문서를 참조하세요.</block>
 </blocks>
